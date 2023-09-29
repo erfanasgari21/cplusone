@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcplusone_doc=self.webpackChunkcplusone_doc||[]).push([[819],{5225:l=>{l.exports=JSON.parse('{"allTagsPath":"/cplusone/blog/tags","slug":"/cplusone/blog/tags/hello","name":"hello","count":2,"permalink":"/cplusone/blog/tags/hello"}')}}]);
