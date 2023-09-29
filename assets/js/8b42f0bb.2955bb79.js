@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcplusone_doc=self.webpackChunkcplusone_doc||[]).push([[764],{1453:o=>{o.exports=JSON.parse('{"allTagsPath":"/cplusone/blog/tags","slug":"/cplusone/blog/tags/facebook","name":"facebook","count":1,"permalink":"/cplusone/blog/tags/facebook"}')}}]);
