@@ -9,13 +9,14 @@ const katex = require("rehype-katex");
     module.exports = {
         title: "سی بعلاوه یک",
         tagline: "Dinosaurs are cool",
-        url: "https://your-docusaurus-test-site.com",
-        baseUrl: "/",
+        url: "https://github.com/",
+        baseUrl: "/cplusone/",
         onBrokenLinks: "throw",
         onBrokenMarkdownLinks: "warn",
         favicon: "img/favicon.ico",
-        organizationName: "facebook", // Usually your GitHub org/user name.
-        projectName: "docusaurus", // Usually your repo name.
+        organizationName: "erfanasgari21", // Usually your GitHub org/user name.
+        projectName: "cplusone", // Usually your repo name.
+        trailingSlash: false,
         i18n: {
             defaultLocale: "fa",
             locales: ["fa"],
@@ -54,7 +55,7 @@ const katex = require("rehype-katex");
             /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
             ({
                 navbar: {
-                    title: "My Site",
+                    title: "سی بعلاوه یک",
                     logo: {
                         alt: "My Site Logo",
                         src: "img/logo.svg",
@@ -64,11 +65,11 @@ const katex = require("rehype-katex");
                             type: "doc",
                             docId: "intro",
                             position: "left",
-                            label: "Tutorial",
+                            label: "مجله",
                         },
-                        { to: "/blog", label: "Blog", position: "left" },
+                        //{ to: "/blog", label: "Blog", position: "left" },
                         {
-                            href: "https://github.com/facebook/docusaurus",
+                            href: "https://github.com/erfanasgari21/cplusone",
                             label: "GitHub",
                             position: "right",
                         },
@@ -78,16 +79,16 @@ const katex = require("rehype-katex");
                     style: "dark",
                     links: [
                         {
-                            title: "Docs",
+                            title: "مطالب",
                             items: [
                                 {
-                                    label: "Tutorial",
+                                    label: "مجله",
                                     to: "/docs/intro",
                                 },
                             ],
                         },
                         {
-                            title: "Community",
+                            title: "پیوندها",
                             items: [
                                 {
                                     label: "Stack Overflow",
@@ -104,20 +105,20 @@ const katex = require("rehype-katex");
                             ],
                         },
                         {
-                            title: "More",
+                            title: "بیشتر",
                             items: [
-                                {
-                                    label: "Blog",
-                                    to: "/blog",
-                                },
+                                // {
+                                //     label: "Blog",
+                                //     to: "/blog",
+                                // },
                                 {
                                     label: "GitHub",
-                                    href: "https://github.com/facebook/docusaurus",
+                                    href: "https://github.com/erfanasgari21/cplusone",
                                 },
                             ],
                         },
                     ],
-                    copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                    copyright: `Copyright © ${new Date().getFullYear()} UT AP, Inc. Built with Docusaurus.`,
                 },
                 prism: {
                     theme: lightCodeTheme,
@@ -131,6 +132,7 @@ const katex = require("rehype-katex");
                 integrity: "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
                 crossorigin: "anonymous",
             },
+            "https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap",
         ],
     }
 );
